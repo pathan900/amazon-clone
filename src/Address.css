@@ -1,0 +1,45 @@
+.address{
+    width: 100%;
+}
+.address > form{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 10%;
+}
+.address > form >input{
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.address > form >h2{
+margin-bottom: 5px;
+margin-top: 10px;
+}
+.address > form >label{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+select{
+    height: 30px;
+    width: 200px;
+    margin-top: 5px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.check input{
+    margin-right: 5px;
+}
+button{
+    width: 280px;
+    height: 30px;
+    background-color: #f0c14b;
+    border: 1px solid;
+    margin-top: 20px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: black; 
+    font-weight: 500;
+    cursor: pointer;
+    }

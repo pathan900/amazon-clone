@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.top_footer{
+    text-align: center;
+    height: 30px; 
+    cursor: pointer;
+}
+.center_footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+    color: white;
+    height: 100%;
+}
+.part_1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.part_1 > h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.bottom_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #232F3E;
+   color: white;
+   padding-bottom: 20px;
+}
